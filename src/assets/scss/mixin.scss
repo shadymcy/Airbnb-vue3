@@ -1,0 +1,8 @@
+// 参数的定义与变量定义的规则一样，都是$符号起头
+@mixin flex($justify: center, $align: center, $dire: row, $type: flex) {
+  display: $type;
+  // 居中排列
+  justify-content: $justify;
+  align-items: $align;
+  flex-direction: $dire;
+}
